@@ -1,0 +1,195 @@
+{
+    "success": true,
+    "wmslayers": [
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Ouvrages",
+            "layername": "Ouvrage principal",
+            "toclayertitle": "Ouvrage principal",
+            "visini": false,
+            "wms_sort": 20,
+            "toc_sort": 20
+        },
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Ouvrages",
+            "layername": "Ouvrage secondaire / Chambre",
+            "toclayertitle": "Ouvrage secondaire / Chambres",
+            "visini": false,
+            "wms_sort": 19,
+            "toc_sort": 19
+        },
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Points",
+            "layername": "Hydrante",
+            "toclayertitle": "Hydrantes",
+            "visini": false,
+            "wms_sort": 18,
+            "toc_sort": 18
+        },
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Points",
+            "layername": "Vanne",
+            "toclayertitle": "Vannes",
+            "visini": false,
+            "wms_sort": 17,
+            "toc_sort": 17
+        },
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Points",
+            "layername": "Elément de montage",
+            "toclayertitle": "Eléments de montage",
+            "visini": false,
+            "wms_sort": 16,
+            "toc_sort": 16
+        },
+        {   
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Points",
+            "layername": "Introduction - Abonnés",
+            "toclayertitle": "Introduction - Abonnés",
+            "visini": false,
+            "wms_sort": 15,
+            "toc_sort": 15
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Conduites",
+            "layername": "Conduite >1:2500",
+            "toclayertitle": "Conduites >1:2500",
+            "visini": false,
+            "wms_sort": 14,
+            "toc_sort": 14
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Conduites",
+            "layername": "Conduite <1:2500",
+            "toclayertitle": "Conduites <1:2500",
+            "visini": false,
+            "wms_sort": 13,
+            "toc_sort": 13
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Réseau - Fuites et dégats",
+            "layername": "fuite",
+            "toclayertitle": "Fuites",
+            "visini": false,
+            "wms_sort": 12,
+            "toc_sort": 12
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Côtes",
+            "layername": "côtes distance",
+            "toclayertitle": "Côtes distance",
+            "visini": false,
+            "wms_sort": 11,
+            "toc_sort": 11
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Côtes",
+            "layername": "côtes orientation",
+            "toclayertitle": "Côtes orientation",
+            "visini": false,
+            "wms_sort": 10,
+            "toc_sort": 10
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Zones",
+            "layername": "Zones de chantier",
+            "toclayertitle": "Zones de chantier",
+            "visini": false,
+            "wms_sort": 9,
+            "toc_sort": 9
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Zones",
+            "layername": "zones de pressions",
+            "toclayertitle": "Zones de pressions",
+            "visini": false,
+            "wms_sort": 8,
+            "toc_sort": 8
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Zones",
+            "layername": "folios",
+            "toclayertitle": "Folios",
+            "visini": false,
+            "wms_sort": 7,
+            "toc_sort": 7
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Zones",
+            "layername": "Zones de protection des eaux souterraines",
+            "toclayertitle": "Zones de protection des eaux souterraines",
+            "visini": false,
+            "wms_sort": 6,
+            "toc_sort": 6
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Zones",
+            "layername": "communes",
+            "toclayertitle": "Communes",
+            "visini": false,
+            "wms_sort": 5,
+            "toc_sort": 5
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "LIM_COM",
+            "toclayertitle": "Limites communales",
+            "visini": true,
+            "wms_sort": 4,
+            "toc_sort": 4
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Orthophotos Lidar 2012",
+            "toclayertitle": "Orthophotos 2012",
+            "visini": false,
+            "wms_sort": 3,
+            "toc_sort": 3
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Fond cadastral",
+            "toclayertitle": "Plan cadastral",
+            "visini": true,
+            "wms_sort": 2,
+            "toc_sort": 2
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Plan ville",
+            "toclayertitle": "Plan Ville",
+            "visini": false,
+            "wms_sort": 1,
+            "toc_sort": 1
+        },
+        {
+            "topic": "qwat_reseau_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Carte nationale",
+            "toclayertitle": "Carte nationale",
+            "visini": false,
+            "wms_sort": 0,
+            "toc_sort": 0
+        }
+    ]
+}
+        

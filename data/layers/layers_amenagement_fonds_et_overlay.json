@@ -1,0 +1,167 @@
+{
+    "success": true,
+    "wmslayers": [
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "LIM_COM",
+            "toclayertitle": "Limites communales",
+            "visini": true,
+            "wms_sort": 6,
+            "toc_sort": 6
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Orthophotos Lidar 2012",
+            "toclayertitle": "Orthophotos 2012",
+            "visini": false,
+            "wms_sort": 5,
+            "toc_sort": 5
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Fond cadastral",
+            "toclayertitle": "Plan cadastral",
+            "visini": false,
+            "wms_sort": 4,
+            "toc_sort": 4
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Plan ville",
+            "toclayertitle": "Plan Ville",
+            "visini": true,
+            "wms_sort": 3,
+            "toc_sort": 3
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Carte nationale",
+            "toclayertitle": "Carte nationale",
+            "visini": false,
+            "wms_sort": 2,
+            "toc_sort": 2
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - Zones",
+            "layername": "rives_lac",
+            "toclayertitle": "PGA - Rives",
+            "visini": true,
+            "wms_sort": 18,
+            "toc_sort": 18
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - Zones",
+            "layername": "pga_zone_foret",
+            "toclayertitle": "PGA - Zones Forêt",
+            "visini": true,
+            "wms_sort": 18,
+            "toc_sort": 18
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - Zones",
+            "layername": "pga_zones",
+            "toclayertitle": "PGA - Zones",
+            "visini": true,
+            "wms_sort": 18,
+            "toc_sort": 18
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - PPA",
+            "layername": "pga_ppa_a_view",
+            "toclayertitle": "PPA Annexes",
+            "visini": true,
+            "wms_sort": 17,
+            "toc_sort": 17
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - PPA",
+            "layername": "pga_ppa_dessus_view",
+            "toclayertitle": "PPA1",
+            "visini": true,
+            "wms_sort": 17,
+            "toc_sort": 17
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - PPA",
+            "layername": "pga_ppa_dessous_view",
+            "toclayertitle": "PPA2",
+            "visini": true,
+            "wms_sort": 17,
+            "toc_sort": 17
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "pga_lc",
+            "toclayertitle": "PGA - Limites constructions",
+            "visini": false,
+            "wms_sort": 16,
+            "toc_sort": 16
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "pga_histor",
+            "toclayertitle": "PGA - Centre historique",
+            "visini": false,
+            "wms_sort": 15,
+            "toc_sort": 15
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "pga_sensible",
+            "toclayertitle": "PGA - Degrés de sensibilité",
+            "visini": false,
+            "wms_sort": 14,
+            "toc_sort": 14
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "pga_stationn",
+            "toclayertitle": "PGA - Secteurs stationnement",
+            "visini": false,
+            "wms_sort": 13,
+            "toc_sort": 13
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "pga_trcomm",
+            "toclayertitle": "PGA - Tronçons commerciaux",
+            "visini": false,
+            "wms_sort": 12,
+            "toc_sort": 12
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "ens_batis",
+            "toclayertitle": "Ensembles bâtis",
+            "visini": false,
+            "wms_sort": 11,
+            "toc_sort": 11
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": null,
+            "layername": "jardins_histo",
+            "toclayertitle": "Jardins historiques",
+            "visini": false,
+            "wms_sort": 10,
+            "toc_sort": 10
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "wmslayers": [
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "LIM_COM",
+            "toclayertitle": "Limites communales",
+            "visini": true,
+            "wms_sort": 6,
+            "toc_sort": 6
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Orthophotos Lidar 2012",
+            "toclayertitle": "Orthophotos 2012",
+            "visini": false,
+            "wms_sort": 5,
+            "toc_sort": 5
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Fond cadastral",
+            "toclayertitle": "Plan cadastral",
+            "visini": false,
+            "wms_sort": 4,
+            "toc_sort": 4
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Plan ville",
+            "toclayertitle": "Plan Ville",
+            "visini": true,
+            "wms_sort": 3,
+            "toc_sort": 3
+        },
+        {
+            "topic": "fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Carte nationale",
+            "toclayertitle": "Carte nationale",
+            "visini": false,
+            "wms_sort": 2,
+            "toc_sort": 2
+        },    
+        {
+            "topic": "altimetrie_fonds_et_overlay",
+            "groupname": null,
+            "layername": "Courbes de niveau (LIDAR 2012)",
+            "toclayertitle": "Courbes de niveau",
+            "visini": false,
+            "wms_sort": 12,
+            "toc_sort": 12
+        },    
+        {
+            "topic": "altimetrie_fonds_et_overlay",
+            "groupname": null,
+            "layername": "Ombrage de la surface (MNS)",
+            "toclayertitle": "Ombrage de la surface (MNS)",
+            "visini": false,
+            "wms_sort": 11,
+            "toc_sort": 11
+        },
+        {
+            "topic": "altimetrie_fonds_et_overlay",
+            "groupname": null,
+            "layername": "Ombrage du terrain (MNT)",
+            "toclayertitle": "Ombrage du terrain (MNT)",
+            "visini": true,
+            "wms_sort": 10,
+            "toc_sort": 10
+        }
+    ]
+}
