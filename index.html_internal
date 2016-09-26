@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Mobile Viewer Index des projets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <link rel="apple-touch-icon" href="img/app_icon.png"/>
+    <link rel="icon" href="favicon.ico" />
+
+   <link rel="stylesheet" type="text/css" href="src/viewer.css" />
+    <link rel="stylesheet" type="text/css" href="src/custom.css" />
+  </head>
+  <body>
+    <div data-role="page" id="mappage" data-theme="c">
+
+      <div data-role="content">
+	<H2><a href='index_souterrain.html'>SOUTERRAIN</a></H2> 
+	<H2><a href='index_qwatlausanne.html'>QWAT</a></H2> 
+	<H2><a href='index_guichetcartomobile.html'>GUICHET PUBLIC</a></H2> 
+      </div>
+
+    </div>
+
+  </body>
+</html>
