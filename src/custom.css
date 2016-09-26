@@ -4,6 +4,9 @@
   background-image: url("../img/glarus_logo.png");
 }
 
+
+
+
 /* topics list from Mapfish Appserver */
 /*
 #topicList li.ui-li.ui-li-static.ui-li-has-thumb {
@@ -15,6 +18,38 @@
   padding: 5px;
 }
 */
+
+/* VOLET GETFEATUREINFO */
+/* Titre Layer + objet */
+span.ui-btn-text {
+  font-size: 14px;    
+}
+
+.ui-fullsize .ui-btn-inner {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+/* Espace entre titre layer et titre object */
+.ui-collapsible-content {
+  padding-top: 0px;
+}
+
+/* Contenu du tableau résultat */
+#featureInfoResults {
+  font-size: 12px;
+}
+
+.ui-li-static.ui-li {
+    padding: .1em 15px;
+    display: block;
+}
+
+/* VOLET LAUSANNE_SEARCH */
+/* Titre (=category) */
+#searchResultsList .ui-li.category-title {
+    display: none;
+}
+
 
 /* HTML feature info from Mapfish Appserver */
 /*
