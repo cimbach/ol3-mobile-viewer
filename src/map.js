@@ -20,7 +20,8 @@ Map.backgroundLayers = null;
 // OpenLayers 3 map object
 Map.map = null;
 // min resolution to limit max zoom
-Map.minResolution = null;
+//Map.minResolution = null;
+Map.minResolution = 0.005; //cimbach
 // OpenLayers 3 layer objects
 Map.topicLayer = null;
 Map.backgroundLayer = null;

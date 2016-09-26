@@ -7,58 +7,58 @@ I18n = {};
 I18n.title = "Mobile Viewer (OL3)";
 
 I18n.search = {
-  header: "Adresssuche",
-  results: "Suchresultat",
-  failed: "Suche fehlgeschlagen:"
+  header: "Recherche d'adresse",
+  results: "R&eacute;sultat",
+  failed: "Erreur lors de la recherche::"
 };
 
 I18n.properties = {
-  header: "Einstellungen",
-  mapFollowing: "Kartennachf&uuml;hrung",
-  mapRotation: "Kartenausrichtung",
-  scaleBar: "Massstabsbalken",
-  about: "Impressum",
+  header: "Param&egrave;tres",
+  mapFollowing: "Suivi",
+  mapRotation: "Orientation",
+  scaleBar: "Barre d'&eacute;chelle",
+  about: "L&eacute;gende",
   share: "Share",
   login: "Login",
-  on: "Ein",
-  off: "Aus",
+  on: "On",
+  off: "Off",
 };
 
 I18n.about = {
-  header: "Impressum",
-  content: "Development version"
+  header: "L&eacute;gende",
+  content: "<img src='../wms/global?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphics&FORMAT=image%2Fpng&EXCEPTIONS=application%2Fvnd.ogc.se_inimage&BOXSPACE=1&LAYERSPACE=2&SYMBOLSPACE=1&SYMBOLHEIGHT=2&LAYERFONTSIZE=8&ITEMFONTSIZE=8&LAYERS=PGEE&DPI=96'></img>"
 };
 
 I18n.layers = {
-  topics: "Themen",
-  layers: "Ebenen",
-  layerOrder: "Reihenfolge",
-  background: "Hintergrund",
-  overlays: "Überlagerung",
-  selection: "Selektion",
+  topics: "Th&egrave;mes",
+  layers: "Couches",
+  layerOrder: "Ordre de rendu",
+  background: "Fond de plan",
+  overlays: "Superpositions",
+  selection: "Selection",
   redlining: "Redlining",
-  transparency: "Transparenz"
+  transparency: "Transparence"
 };
 
 I18n.featureInfo = {
-  header: "Informationen",
-  feature: "Feature mit ID:",
-  raster: "Rasterzelle",
-  noFeatureFound: "Kein Objekt gefunden"
+  header: "Informations",
+  feature: "Objet avec ID:",
+  raster: "Raster",
+  noFeatureFound: "Aucun objet trouv&eacute;"
 };
 
 I18n.geolocation = {
-  permissionDeniedMessage: "Die Geolokalisierung ist für diese Seite deaktiviert.\n\nBitte überprüfen Sie Ihre Browser-Einstellungen, um die Berechtigung zurückzusetzen."
+  permissionDeniedMessage: "Les param&egrave;tres de g&eacute;olocalisation sont d&eacute;sactiv&eacute;es dans votre navigateur."
 };
 
 I18n.login = {
-  header: "Login",
-  user: "Benutzer",
-  password: "Passwort",
-  signIn: "Anmelden",
-  cancel: "Abbrechen",
-  signOut: "Abmelden",
-  signInFailed: "Benutzername oder Passwort nicht korrekt",
-  signOutFailed: "Abmelden fehlgeschlagen",
-  statusFailed: "Login Status fehlgeschlagen"
+  header: "Connexion",
+  user: "Utilisateur",
+  password: "Mot de passe",
+  signIn: "Se connecter",
+  cancel: "Annuler",
+  signOut: "Deconnexion",
+  signInFailed: "Nom d'utilisateur ou mot de passe incorrect",
+  signOutFailed: "Probl&egrave;me &agrave; la d&eacute;connexion",
+  statusFailed: "Impossible de se connecter"
 };

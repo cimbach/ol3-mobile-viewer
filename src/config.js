@@ -2,7 +2,8 @@
  * Custom configuration
  */
 
-var Config = {};
+//var Config = {};
+Config = {};
 
 // flag to activate debug code
 Config.debug = false;
@@ -44,12 +45,13 @@ return "/layers.json?topic=" + topicName;
 }
 */
 
-Config.data.initialTopic = "geo_admin_pk";
-
+//Config.data.initialTopic = "limcom"; //projet topics_01_wms_project.json
+//Config.data.initialTopic = "souterrain_fonds_et_overlay"; //projet topics_souterrain.json
+Config.data.initialTopic = "cadastre_fonds_et_overlay";
 
 // default properties
 Config.defaultProperties = {
-  following: true,
+  following: false,
   orientation: false,
   scalebar: true
 };
@@ -62,10 +64,11 @@ Config.featureInfo = {};
 Config.featureInfo.format = 'text/xml';
 
 // enable this to use WMS GetFeatureInfo requests
-Config.featureInfo.useWMSGetFeatureInfo = false;
+//Config.featureInfo.useWMSGetFeatureInfo = false;
+Config.featureInfo.useWMSGetFeatureInfo = true;
 
 // max number of features per layer for WMS GetFeatureInfo requests (null to use WMS default)
-Config.featureInfo.wmsMaxFeatures = null;
+Config.featureInfo.wmsMaxFeatures = 10;
 
 /**
  * Tolerances for WMS GetFeatureInfo requests on QGIS Server
@@ -86,6 +89,7 @@ Config.featureInfo.tolerances = {
  * coordinate: clicked position as [x, y]
  * layers: array of visible WMS layer names
  */
+ /*
 Config.featureInfo.url = function(topicName, coordinate, layers) {
   // DEBUG: sample static files for demonstration purposes
   if (Config.featureInfo.format === 'text/xml') {
@@ -97,6 +101,7 @@ Config.featureInfo.url = function(topicName, coordinate, layers) {
     return "data/get_feature_info_response.html";
   }
 };
+*/
 
 /* Configuration for Mapfish Appserver:
 Config.featureInfo.format = 'text/html';
@@ -119,13 +124,14 @@ Config.map = {};
 Config.map.dpi = 96;
 
 // ol.Extent [<minx>, <miny>, <maxx>, <maxy>]
-Config.map.extent = [420000, 30000, 900000, 350000];
+//Config.map.extent = [420000, 30000, 900000, 350000];
+Config.map.extent = [520000, 143000, 559000, 169000];
 
-Config.map.scaleDenoms = [2000000, 1000000, 400000, 200000, 80000, 40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100];
+Config.map.scaleDenoms = [80000, 40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100, 50, 20];
 
 Config.map.init = {
-  center: [660000, 190000],
-  zoom: 1
+  center: [539500, 156000],
+  zoom: 0
 };
 
 // ol.proj.Projection
@@ -161,9 +167,9 @@ Config.map.useTiledOverlayWMS = false;
 
 // limit max zoom to this scale (e.g. minScaleDenom=500 for 1:500)
 Config.map.minScaleDenom = {
-  map: 1000, // if topic.minscale is not set
-  geolocation: 10000, // on location following
-  search: 10000 // jump to search results
+  map: 100, //1000 if topic.minscale is not set
+  geolocation: 2000, //10000 on location following
+  search: 2000 //10000 jump to search results
 };
 
 // limit min zoom to this scale on the initial geolocation update (null to disable)
@@ -178,7 +184,7 @@ Config.map.initialGeolocationMaxScale = null;
  * services: SwissSearch services
  * queryPostfix: append this to the query string to limit search results e.g. to a canton ("ZH")
  */
-Config.search = new SwissSearch('swissnames', "");
+//Config.search = new SwissSearch('swissnames', "");
 
 
 /**
@@ -188,8 +194,9 @@ Config.search = new SwissSearch('swissnames', "");
 // create query URL from search params
 Config.mapfishSearchUrl = function(searchParams) {
   // DEBUG: sample static file for demonstration purposes
-  return "data/mapfish_search_response.json";
 /*
+  return "data/mapfish_search_response.json";
+
   return "/search/fullsearch.json?" + $.param({
     begriff: searchParams
   });
@@ -219,6 +226,12 @@ Config.mapfishHighlightWmsUrl = "/wms/FullSearch";
  * WSGI search
  */
 //Config.search = new WsgiSearch("/wsgi/search.wsgi", "/wsgi/getSearchGeom.wsgi", false);
+
+/**
+ * LausanneSearch search based on WSGI
+ */
+Config.search = new LausanneSearch("https://map.lausanne.ch/main/wsgi/fulltextsearch?limit=100", "/wsgi/getSearchGeom.wsgi", false);
+
 
 
 // permalink configuration
