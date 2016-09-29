@@ -77,7 +77,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Assainissement",
             "layername": "SYN_ASS_SYB_POINT",
-            "toclayertitle": "Symboles points",
+            "toclayertitle": "Symboles",
             "visini": false,
             "wms_sort": 16,
             "toc_sort": 16
@@ -86,7 +86,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Assainissement",
             "layername": "SYN_ASS_SYB_LINE",
-            "toclayertitle": "Symboles lignes",
+            "toclayertitle": "Symboles",
             "visini": false,
             "wms_sort": 16,
             "toc_sort": 16
@@ -95,7 +95,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Assainissement",
             "layername": "SYN_ASS_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 16,
             "toc_sort": 16
@@ -122,7 +122,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Chauffage",
             "layername": "SYN_CHA_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 15,
             "toc_sort": 15
@@ -149,7 +149,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Eau",
             "layername": "SYN_EAU_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 14,
             "toc_sort": 14
@@ -176,7 +176,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Electricité",
             "layername": "SYN_ELC_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 13,
             "toc_sort": 13
@@ -203,7 +203,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Gaz",
             "layername": "SYN_GAZ_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 12,
             "toc_sort": 12
@@ -230,7 +230,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Multi-services",
             "layername": "SYN_MUL_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 11,
             "toc_sort": 11
@@ -257,7 +257,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Signalisation",
             "layername": "SYN_POL_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 10,
             "toc_sort": 10
@@ -284,7 +284,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Télécom",
             "layername": "SYN_TEL_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 9,
             "toc_sort": 9
@@ -311,7 +311,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "TL",
             "layername": "SYN_TL__LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 8,
             "toc_sort": 8
@@ -338,7 +338,7 @@
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Compléments",
             "layername": "SYN_COM_LIN",
-            "toclayertitle": "Conduites",
+            "toclayertitle": "Conduites - chambres",
             "visini": false,
             "wms_sort": 7,
             "toc_sort": 7
@@ -357,6 +357,15 @@
             "groupname": "Points fixes",
             "layername": "PF_PFP",
             "toclayertitle": "PF planimétriques",
+            "visini": true,
+            "wms_sort": 7,
+            "toc_sort": 7
+        },
+        {
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": "Points limite",
+            "layername": "BF_POINT",
+            "toclayertitle": "Points limite",
             "visini": true,
             "wms_sort": 7,
             "toc_sort": 7
