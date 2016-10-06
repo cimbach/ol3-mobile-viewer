@@ -61,6 +61,15 @@
             "layername": "CS_BATI_POL",
             "toclayertitle": "Bâtiments",
             "visini": true,
+            "wms_sort": 1,
+            "toc_sort": 1
+        },
+        {
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Altitude du terrain",
+            "toclayertitle": "Altitude du terrain",
+            "visini": true,
             "wms_sort": 0,
             "toc_sort": 0
         },
