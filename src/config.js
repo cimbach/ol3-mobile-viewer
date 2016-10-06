@@ -77,7 +77,7 @@ Config.featureInfo.wmsMaxFeatures = 10;
  * the actual pixel ratio value for high resolution rendering
  */
 Config.featureInfo.tolerances = {
-  point: 1, //16
+  point: 4, //16
   line: 8,
   polygon: 4
 };
