@@ -125,7 +125,7 @@ Config.map.dpi = 96;
 
 // ol.Extent [<minx>, <miny>, <maxx>, <maxy>]
 //Config.map.extent = [420000, 30000, 900000, 350000];
-Config.map.extent = [533135, 151520, 545850, 160490]; //Does not seem to work, extent added in ol.View options below instead
+Config.map.extent = [523000, 146000, 556000, 166000]; //Does not seem to work, extent added in ol.View options below instead
 
 Config.map.scaleDenoms = [40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100, 50, 20];
 
