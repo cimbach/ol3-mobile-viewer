@@ -125,9 +125,9 @@ Config.map.dpi = 96;
 
 // ol.Extent [<minx>, <miny>, <maxx>, <maxy>]
 //Config.map.extent = [420000, 30000, 900000, 350000];
-Config.map.extent = [520000, 143000, 559000, 169000];
+Config.map.extent = [533135, 151520, 545850, 160490]; //Does not seem to work, extent added in ol.View options below instead
 
-Config.map.scaleDenoms = [80000, 40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100, 50, 20];
+Config.map.scaleDenoms = [40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100, 50, 20];
 
 Config.map.init = {
   center: [539500, 156000],
@@ -151,7 +151,8 @@ Config.map.viewOptions = {
   projection: Config.map.projection,
   resolutions: Config.map.scaleDenomsToResolutions(Config.map.scaleDenoms),
   center: Config.map.init.center,
-  zoom: Config.map.init.zoom
+  zoom: Config.map.init.zoom,
+  //extent: [533135, 151520, 545850, 160490] //Pan strange behaviour
 };
 
 // WMS server type ('geoserver', 'mapserver', 'qgis'), used for adding WMS dpi parameters
