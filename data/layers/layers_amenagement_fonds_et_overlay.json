@@ -47,6 +47,24 @@
             "toc_sort": 2
         },
         {
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "BF_PARC_POL",
+            "toclayertitle": "Parcelles",
+            "visini": true,
+            "wms_sort": 1,
+            "toc_sort": 1
+        },
+        {
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "CS_BATI_POL",
+            "toclayertitle": "Bâtiments",
+            "visini": true,
+            "wms_sort": 1,
+            "toc_sort": 1
+        },
+        {
             "topic": "amenagement_fonds_et_overlay",
             "groupname": "PGA - Zones",
             "layername": "rives_lac",
