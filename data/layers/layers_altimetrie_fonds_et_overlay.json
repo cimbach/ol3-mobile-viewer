@@ -4,7 +4,7 @@
         {
             "topic": "fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "LIM_COM",
+            "layername": "lim_terr_lsne",
             "toclayertitle": "Limites communales",
             "visini": true,
             "wms_sort": 6,
@@ -69,7 +69,7 @@
             "groupname": null,
             "layername": "Ombrage du terrain (MNT)",
             "toclayertitle": "Ombrage du terrain (MNT)",
-            "visini": true,
+            "visini": false,
             "wms_sort": 10,
             "toc_sort": 10
         }
