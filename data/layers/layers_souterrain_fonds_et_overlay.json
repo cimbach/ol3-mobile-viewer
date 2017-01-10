@@ -78,7 +78,7 @@
             "groupname": "Assainissement",
             "layername": "SYN_ASS_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 16,
             "toc_sort": 16
         },
@@ -87,7 +87,7 @@
             "groupname": "Assainissement",
             "layername": "SYN_ASS_SYB_POINT",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 16,
             "toc_sort": 16
         },
@@ -96,7 +96,7 @@
             "groupname": "Assainissement",
             "layername": "SYN_ASS_SYB_LINE",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 16,
             "toc_sort": 16
         },
@@ -105,7 +105,7 @@
             "groupname": "Assainissement",
             "layername": "SYN_ASS_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 16,
             "toc_sort": 16
         },
@@ -114,7 +114,7 @@
             "groupname": "Chauffage",
             "layername": "SYN_CHA_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 15,
             "toc_sort": 15
         },
@@ -123,7 +123,7 @@
             "groupname": "Chauffage",
             "layername": "SYN_CHA_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 15,
             "toc_sort": 15
         },
@@ -132,7 +132,7 @@
             "groupname": "Chauffage",
             "layername": "SYN_CHA_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 15,
             "toc_sort": 15
         },
@@ -141,7 +141,7 @@
             "groupname": "Eau",
             "layername": "SYN_EAU_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 14,
             "toc_sort": 14
         },
@@ -150,7 +150,7 @@
             "groupname": "Eau",
             "layername": "SYN_EAU_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 14,
             "toc_sort": 14
         },
@@ -159,7 +159,7 @@
             "groupname": "Eau",
             "layername": "SYN_EAU_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 14,
             "toc_sort": 14
         },
@@ -168,7 +168,7 @@
             "groupname": "Electricité",
             "layername": "SYN_ELC_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 13,
             "toc_sort": 13
         },
@@ -177,7 +177,7 @@
             "groupname": "Electricité",
             "layername": "SYN_ELC_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 13,
             "toc_sort": 13
         },
@@ -186,7 +186,7 @@
             "groupname": "Electricité",
             "layername": "SYN_ELC_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 13,
             "toc_sort": 13
         },
@@ -195,7 +195,7 @@
             "groupname": "Gaz",
             "layername": "SYN_GAZ_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 12,
             "toc_sort": 12
         },
@@ -204,7 +204,7 @@
             "groupname": "Gaz",
             "layername": "SYN_GAZ_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 12,
             "toc_sort": 12
         },
@@ -213,7 +213,7 @@
             "groupname": "Gaz",
             "layername": "SYN_GAZ_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 12,
             "toc_sort": 12
         },
@@ -222,7 +222,7 @@
             "groupname": "Multi-services",
             "layername": "SYN_MUL_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 11,
             "toc_sort": 11
         },
@@ -231,7 +231,7 @@
             "groupname": "Multi-services",
             "layername": "SYN_MUL_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 11,
             "toc_sort": 11
         },
@@ -240,7 +240,7 @@
             "groupname": "Multi-services",
             "layername": "SYN_MUL_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 11,
             "toc_sort": 11
         },
@@ -249,7 +249,7 @@
             "groupname": "Signalisation",
             "layername": "SYN_POL_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 10,
             "toc_sort": 10
         },
@@ -258,7 +258,7 @@
             "groupname": "Signalisation",
             "layername": "SYN_POL_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 10,
             "toc_sort": 10
         },
@@ -267,7 +267,7 @@
             "groupname": "Signalisation",
             "layername": "SYN_POL_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 10,
             "toc_sort": 10
         },
@@ -276,7 +276,7 @@
             "groupname": "Télécom",
             "layername": "SYN_TEL_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 9,
             "toc_sort": 9
         },
@@ -285,7 +285,7 @@
             "groupname": "Télécom",
             "layername": "SYN_TEL_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 9,
             "toc_sort": 9
         },
@@ -294,7 +294,7 @@
             "groupname": "Télécom",
             "layername": "SYN_TEL_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 9,
             "toc_sort": 9
         },
@@ -303,7 +303,7 @@
             "groupname": "TL",
             "layername": "SYN_TL__TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 8,
             "toc_sort": 8
         },
@@ -312,7 +312,7 @@
             "groupname": "TL",
             "layername": "SYN_TL__SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 8,
             "toc_sort": 8
         },
@@ -321,7 +321,7 @@
             "groupname": "TL",
             "layername": "SYN_TL__LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 8,
             "toc_sort": 8
         },
@@ -330,7 +330,7 @@
             "groupname": "Compléments",
             "layername": "SYN_COM_TXT",
             "toclayertitle": "Labels",
-            "visini": false,
+            "visini": true,
             "wms_sort": 7,
             "toc_sort": 7
         },
@@ -339,7 +339,7 @@
             "groupname": "Compléments",
             "layername": "SYN_COM_SYB",
             "toclayertitle": "Symboles",
-            "visini": false,
+            "visini": true,
             "wms_sort": 7,
             "toc_sort": 7
         },
@@ -348,7 +348,7 @@
             "groupname": "Compléments",
             "layername": "SYN_COM_LIN",
             "toclayertitle": "Conduites - chambres",
-            "visini": false,
+            "visini": true,
             "wms_sort": 7,
             "toc_sort": 7
         },
