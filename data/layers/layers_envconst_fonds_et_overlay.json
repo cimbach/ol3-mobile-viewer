@@ -4,7 +4,7 @@
         {
             "topic": "fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "LIM_COM",
+            "layername": "lim_terr_lsne",
             "toclayertitle": "Limites communales",
             "visini": true,
             "wms_sort": 6,
@@ -158,6 +158,7 @@
             "topic": "envconst_fonds_et_overlay",
             "groupname": null,
             "layername": "Protection des eaux",
+            "toclayertitle": "Protection des eaux",
             "visini": false,
             "wms_sort": 10,
             "toc_sort": 10
