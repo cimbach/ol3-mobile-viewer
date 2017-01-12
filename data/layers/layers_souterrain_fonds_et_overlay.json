@@ -13,8 +13,8 @@
         {
             "topic": "souterrain_fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "Orthophotos Lidar 2012",
-            "toclayertitle": "Orthophotos 2012",
+            "layername": "Orthophotos Lausanne 2016",
+            "toclayertitle": "Orthophotos 2016",
             "visini": false,
             "wms_sort": 5,
             "toc_sort": 5
@@ -72,6 +72,15 @@
             "visini": true,
             "wms_sort": 0,
             "toc_sort": 0
+        },
+        {
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": null,
+            "layername": "Répartition des plans",
+            "toclayertitle": "Répartition des plans",
+            "visini": false,
+            "wms_sort": 17,
+            "toc_sort": 17
         },
         {
             "topic": "souterrain_fonds_et_overlay",
