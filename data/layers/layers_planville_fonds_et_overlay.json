@@ -2,25 +2,25 @@
     "success": true,
     "wmslayers": [
         {
-            "topic": "fonds_et_overlay",
+            "topic": "planville_fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "LIM_COM",
+            "layername": "lim_terr_lsne",
             "toclayertitle": "Limites communales",
             "visini": true,
             "wms_sort": 6,
             "toc_sort": 6
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "planville_fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "Orthophotos Lidar 2012",
-            "toclayertitle": "Orthophotos 2012",
+            "layername": "Orthophotos Lausanne 2016",
+            "toclayertitle": "Orthophotos 2016",
             "visini": false,
             "wms_sort": 5,
             "toc_sort": 5
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "planville_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Fond cadastral",
             "toclayertitle": "Plan cadastral",
@@ -29,7 +29,7 @@
             "toc_sort": 4
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "planville_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Plan ville",
             "toclayertitle": "Plan Ville",
@@ -38,7 +38,7 @@
             "toc_sort": 3
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "planville_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Carte nationale",
             "toclayertitle": "Carte nationale",

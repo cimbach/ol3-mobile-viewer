@@ -2,7 +2,7 @@
     "success": true,
     "wmslayers": [
         {
-            "topic": "fonds_et_overlay",
+            "topic": "envconst_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "lim_terr_lsne",
             "toclayertitle": "Limites communales",
@@ -11,16 +11,16 @@
             "toc_sort": 6
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "envconst_fonds_et_overlay",
             "groupname": "Fonds",
-            "layername": "Orthophotos Lidar 2012",
-            "toclayertitle": "Orthophotos 2012",
+            "layername": "Orthophotos Lausanne 2016",
+            "toclayertitle": "Orthophotos 2016",
             "visini": false,
             "wms_sort": 5,
             "toc_sort": 5
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "envconst_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Fond cadastral",
             "toclayertitle": "Plan cadastral",
@@ -29,7 +29,7 @@
             "toc_sort": 4
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "envconst_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Plan ville",
             "toclayertitle": "Plan Ville",
@@ -38,7 +38,7 @@
             "toc_sort": 3
         },
         {
-            "topic": "fonds_et_overlay",
+            "topic": "envconst_fonds_et_overlay",
             "groupname": "Fonds",
             "layername": "Carte nationale",
             "toclayertitle": "Carte nationale",
@@ -52,8 +52,8 @@
             "layername": "Gazoduc",
             "toclayertitle": "Gazoduc",
             "visini": false,
-            "wms_sort": 16,
-            "toc_sort": 16
+            "wms_sort": 14,
+            "toc_sort": 14
         },
         {
             "topic": "envconst_fonds_et_overlay",
@@ -61,84 +61,30 @@
             "layername": "Lignes haute tension",
             "toclayertitle": "Lignes haute tension",
             "visini": false,
-            "wms_sort": 15,
-            "toc_sort": 15
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": "Liaisons biologiques",
-            "layername": "Sous-réseau amphibie/aquatique",
-            "toclayertitle": "Amphibies/aquatiques",
-            "visini": false,
-            "wms_sort": 14,
-            "toc_sort": 14
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": "Liaisons biologiques",
-            "layername": "Sous-réseau forestier",
-            "toclayertitle": "Milieu forestier",
-            "visini": false,
-            "wms_sort": 14,
-            "toc_sort": 14
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": "Liaisons biologiques",
-            "layername": "Sous-réseau lieux secs",
-            "toclayertitle": "Lieux secs",
-            "visini": false,
-            "wms_sort": 14,
-            "toc_sort": 14
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": "Zones stratégiques",
-            "layername": "spadom_zones_strat_agri",
-            "toclayertitle": "Agricoles",
-            "visini": false,
             "wms_sort": 13,
             "toc_sort": 13
         },
         {
             "topic": "envconst_fonds_et_overlay",
-            "groupname": "Zones stratégiques",
-            "layername": "spadom_zones_strat_aqua",
-            "toclayertitle": "Amphibies/aquatiques",
+            "groupname": "Réseau écologique",
+            "layername": "Liaisons biologiques stratégiques",
+            "toclayertitle": "Liaisons biologiques",
             "visini": false,
-            "wms_sort": 13,
-            "toc_sort": 13
+            "wms_sort": 12,
+            "toc_sort": 12
         },
         {
             "topic": "envconst_fonds_et_overlay",
-            "groupname": "Zones stratégiques",
-            "layername": "spadom_zones_strat_bati",
-            "toclayertitle": "Milieu bâti",
+            "groupname": "Réseau écologique",
+            "layername": "Zones stratégiques",
+            "toclayertitle": "Zones stratégiques",
             "visini": false,
-            "wms_sort": 13,
-            "toc_sort": 13
+            "wms_sort": 12,
+            "toc_sort": 12
         },
         {
             "topic": "envconst_fonds_et_overlay",
-            "groupname": "Zones stratégiques",
-            "layername": "spadom_zones_strat_foret",
-            "toclayertitle": "Milieu forestier",
-            "visini": false,
-            "wms_sort": 13,
-            "toc_sort": 13
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": "Zones stratégiques",
-            "layername": "spadom_zones_strat_secs",
-            "toclayertitle": "Lieux secs",
-            "visini": false,
-            "wms_sort": 13,
-            "toc_sort": 13
-        },
-        {
-            "topic": "envconst_fonds_et_overlay",
-            "groupname": null,
+            "groupname": "Réseau écologique",
             "layername": "Zones à vocations",
             "toclayertitle": "Zones à vocations",
             "visini": false,
