@@ -1,0 +1,68 @@
+{
+    "success": true,
+    "wmslayers": [
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "lim_terr_lsne",
+            "toclayertitle": "Limites communales",
+            "visini": true,
+            "wms_sort": 6,
+            "toc_sort": 6
+        },
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Orthophotos Lausanne 2016",
+            "toclayertitle": "Orthophotos 2016",
+            "visini": false,
+            "wms_sort": 5,
+            "toc_sort": 5
+        },
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Fond cadastral",
+            "toclayertitle": "Plan cadastral",
+            "visini": false,
+            "wms_sort": 4,
+            "toc_sort": 4
+        },
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Plan ville",
+            "toclayertitle": "Plan Ville",
+            "visini": true,
+            "wms_sort": 3,
+            "toc_sort": 3
+        },
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Fonds",
+            "layername": "Carte nationale",
+            "toclayertitle": "Carte nationale",
+            "visini": false,
+            "wms_sort": 2,
+            "toc_sort": 2
+        },       
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Aéroport Blécherette",
+            "layername": "aeroport_bruit",
+            "toclayertitle": "Cadastre du bruit",
+            "visini": true,
+            "wms_sort": 11,
+            "toc_sort": 11
+        },
+        {
+            "topic": "perimetres_fonds_et_overlay",
+            "groupname": "Aéroport Blécherette",
+            "layername": "aeroport_protection",
+            "toclayertitle": "Zone de protection",
+            "visini": true,
+            "wms_sort": 10,
+            "toc_sort": 10
+        }
+    ]
+}
