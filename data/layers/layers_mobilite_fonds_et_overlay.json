@@ -48,7 +48,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Stationnement public voirie",
             "toclayertitle": "Stationnement public voirie",
             "visini": false,
@@ -57,7 +57,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "P+R Parkings-relais",
             "toclayertitle": "P+R Parkings-relais",
             "visini": false,
@@ -66,7 +66,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "PLD Parkings longue durée",
             "toclayertitle": "PLD Parkings longue durée",
             "visini": false,
@@ -75,7 +75,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Autocars",
             "toclayertitle": "Autocars",
             "visini": false,
@@ -84,7 +84,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Poids lourds",
             "toclayertitle": "Poids lourds",
             "visini": false,
@@ -93,7 +93,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Places handicapés",
             "toclayertitle": "Places handicapés",
             "visini": false,
@@ -102,7 +102,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Taxis",
             "toclayertitle": "Taxis",
             "visini": false,
@@ -111,7 +111,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Divers",
             "toclayertitle": "Divers",
             "visini": false,
@@ -120,7 +120,7 @@
         },
         {
             "topic": "mobilite_fonds_et_overlay",
-            "groupname": "Stationnement véhicules motorisés",
+            "groupname": "Stationnement",
             "layername": "Zones macarons",
             "toclayertitle": "Zones macarons",
             "visini": false,
