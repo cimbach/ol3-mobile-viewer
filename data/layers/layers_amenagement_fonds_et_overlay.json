@@ -24,7 +24,7 @@
             "groupname": "Fonds",
             "layername": "Fond cadastral",
             "toclayertitle": "Plan cadastral",
-            "visini": false,
+            "visini": true,
             "wms_sort": 4,
             "toc_sort": 4
         },
@@ -33,7 +33,7 @@
             "groupname": "Fonds",
             "layername": "Plan ville",
             "toclayertitle": "Plan Ville",
-            "visini": true,
+            "visini": false,
             "wms_sort": 3,
             "toc_sort": 3
         },
@@ -66,54 +66,27 @@
         },
         {
             "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - PPA",
-            "layername": "pga_ppa_a_view",
-            "toclayertitle": "PPA Annexes",
-            "visini": true,
-            "wms_sort": 19,
-            "toc_sort": 19
-        },
-        {
-            "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - PPA",
-            "layername": "PPA",
-            "toclayertitle": "PPA",
-            "visini": true,
-            "wms_sort": 19,
-            "toc_sort": 19
-        },
-        {
-            "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - Forêts",
-            "layername": "pga_lim_foret",
-            "toclayertitle": "PGA - Forêts1",
-            "visini": true,
-            "wms_sort": 18,
-            "toc_sort": 18
-        },
-        {
-            "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - Forêts",
-            "layername": "pga_zone_foret",
-            "toclayertitle": "PGA - Forêts2",
-            "visini": true,
-            "wms_sort": 18,
-            "toc_sort": 18
-        },
-        {
-            "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - Zones",
-            "layername": "rives_lac",
-            "toclayertitle": "PGA - Rives",
+            "groupname": "PGA - Zones, Forêts et PPA",
+            "layername": "PPA Plans et annexes",
+            "toclayertitle": "PPA Plans et annexes",
             "visini": true,
             "wms_sort": 17,
             "toc_sort": 17
         },
         {
             "topic": "amenagement_fonds_et_overlay",
-            "groupname": "PGA - Zones",
-            "layername": "pga_zones",
-            "toclayertitle": "PGA - Zones",
+            "groupname": "PGA - Zones, Forêts et PPA",
+            "layername": "Forêts PGA",
+            "toclayertitle": "Forêts PGA",
+            "visini": true,
+            "wms_sort": 17,
+            "toc_sort": 17
+        },
+        {
+            "topic": "amenagement_fonds_et_overlay",
+            "groupname": "PGA - Zones, Forêts et PPA",
+            "layername": "Zones PGA",
+            "toclayertitle": "Zones PGA",
             "visini": true,
             "wms_sort": 17,
             "toc_sort": 17
