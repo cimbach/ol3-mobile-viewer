@@ -79,8 +79,8 @@
             "layername": "PF_PFA",
             "toclayertitle": "PF altimétriques",
             "visini": true,
-            "wms_sort": 17,
-            "toc_sort": 17
+            "wms_sort": 19,
+            "toc_sort": 19
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -88,8 +88,17 @@
             "layername": "PF_PFP",
             "toclayertitle": "PF planimétriques",
             "visini": true,
-            "wms_sort": 17,
-            "toc_sort": 17
+            "wms_sort": 19,
+            "toc_sort": 19
+        }, 
+        {       
+            "topic": "souterrain_fonds_et_overlay",
+            "groupname": "Points fixes",
+            "layername": "PF_PFP4",
+            "toclayertitle": "PF planimétriques cat.4",
+            "visini": true,
+            "wms_sort": 19,
+            "toc_sort": 19
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -97,8 +106,8 @@
             "layername": "BF_POINT",
             "toclayertitle": "Points limite",
             "visini": true,
-            "wms_sort": 17,
-            "toc_sort": 17
+            "wms_sort": 18,
+            "toc_sort": 18
         },      
         {
             "topic": "souterrain_fonds_et_overlay",
