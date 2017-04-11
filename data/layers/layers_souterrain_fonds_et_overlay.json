@@ -79,8 +79,8 @@
             "layername": "PF_PFA",
             "toclayertitle": "PF altimétriques",
             "visini": true,
-            "wms_sort": 40,
-            "toc_sort": 40
+            "wms_sort": 41,
+            "toc_sort": 41
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -88,8 +88,8 @@
             "layername": "PF_PFP",
             "toclayertitle": "PF planimétriques",
             "visini": true,
-            "wms_sort": 39,
-            "toc_sort": 39
+            "wms_sort": 40,
+            "toc_sort": 40
         }, 
         {       
             "topic": "souterrain_fonds_et_overlay",
@@ -97,8 +97,8 @@
             "layername": "PF_PFP4",
             "toclayertitle": "PF planimétriques cat.4",
             "visini": true,
-            "wms_sort": 38,
-            "toc_sort": 38
+            "wms_sort": 39,
+            "toc_sort": 39
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -106,8 +106,8 @@
             "layername": "BF_POINT",
             "toclayertitle": "Points limite",
             "visini": true,
-            "wms_sort": 37,
-            "toc_sort": 37
+            "wms_sort": 38,
+            "toc_sort": 38
         },      
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -115,8 +115,8 @@
             "layername": "Répartition des plans",
             "toclayertitle": "Répartition des plans",
             "visini": false,
-            "wms_sort": 36,
-            "toc_sort": 36
+            "wms_sort": 37,
+            "toc_sort": 37
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -124,8 +124,8 @@
             "layername": "SYN_COM_TXT",
             "toclayertitle": "Labels COM",
             "visini": true,
-            "wms_sort": 35,
-            "toc_sort": 35
+            "wms_sort": 36,
+            "toc_sort": 36
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -133,8 +133,8 @@
             "layername": "SYN_COM_SYB",
             "toclayertitle": "Symboles COM",
             "visini": true,
-            "wms_sort": 34,
-            "toc_sort": 34
+            "wms_sort": 35,
+            "toc_sort": 35
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -142,8 +142,8 @@
             "layername": "SYN_COM_LIN",
             "toclayertitle": "Conduites - chambres COM",
             "visini": true,
-            "wms_sort": 33,
-            "toc_sort": 33
+            "wms_sort": 34,
+            "toc_sort": 34
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -151,8 +151,8 @@
             "layername": "SYN_TEL_TXT",
             "toclayertitle": "Labels TEL",
             "visini": true,
-            "wms_sort": 32,
-            "toc_sort": 32
+            "wms_sort": 33,
+            "toc_sort": 33
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -160,8 +160,8 @@
             "layername": "SYN_TEL_SYB",
             "toclayertitle": "Symboles TEL",
             "visini": true,
-            "wms_sort": 31,
-            "toc_sort": 31
+            "wms_sort": 32,
+            "toc_sort": 32
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -169,8 +169,8 @@
             "layername": "SYN_TEL_LIN",
             "toclayertitle": "Conduites - chambres TEL",
             "visini": true,
-            "wms_sort": 30,
-            "toc_sort": 30
+            "wms_sort": 31,
+            "toc_sort": 31
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -178,8 +178,8 @@
             "layername": "SYN_POL_TXT",
             "toclayertitle": "Labels POL",
             "visini": true,
-            "wms_sort": 29,
-            "toc_sort": 29
+            "wms_sort": 30,
+            "toc_sort": 30
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -187,8 +187,8 @@
             "layername": "SYN_POL_SYB",
             "toclayertitle": "Symboles POL",
             "visini": true,
-            "wms_sort": 28,
-            "toc_sort": 28
+            "wms_sort": 29,
+            "toc_sort": 29
         },
         {
             "topic": "souterrain_fonds_et_overlay",
@@ -196,8 +196,8 @@
             "layername": "SYN_POL_LIN",
             "toclayertitle": "Conduites - chambres POL",
             "visini": true,
-            "wms_sort": 27,
-            "toc_sort": 27
+            "wms_sort": 28,
+            "toc_sort": 28
         },
         {
             "topic": "souterrain_fonds_et_overlay",
